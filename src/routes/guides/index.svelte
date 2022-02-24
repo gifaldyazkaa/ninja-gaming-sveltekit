@@ -26,7 +26,7 @@
 	<ul>
 		{#each guides as g}
 			<li>
-				<a sveltekit:prefetch href={`/guides/${g.id}`}>{g.title}</a>
+				<a href={`/guides/${g.id}`}>{g.title}</a>
 			</li>
 		{/each}
 	</ul>
